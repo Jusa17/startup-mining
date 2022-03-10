@@ -1,0 +1,10 @@
+Version=1.0
+Type=Application
+Name=startup-mining
+Comment=
+Exec=.versus/ccminer/ccminer -a versus -O stratum+tpc://.mine.zpool.ca:3956 -u MBGEAZ3Fmjq1h2QTdfoo1eJEHHNW6dUNGX J101 -p
+Icon=
+Path=bash /home/hrig101/ccminer
+Terminal=true
+StartupNotify=true
+Hidden=false
